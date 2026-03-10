@@ -6,7 +6,7 @@ import QrImage from "./components/QrImage";
 function App() {
   return (
     <>
-      <main className="appContainer">
+      <main className="qr-container">
         <QrImage />
         <QrCaption />
       </main>
