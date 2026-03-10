@@ -6,15 +6,13 @@ import QrImage from "./components/QrImage";
 function App() {
   return (
     <>
-      <div>
-        <main className="appContainer">
-          <QrImage />
-          <QrCaption />
-        </main>
-        <footer>
-          <Attribution />
-        </footer>
-      </div>
+      <main className="appContainer">
+        <QrImage />
+        <QrCaption />
+      </main>
+      <footer>
+        <Attribution />
+      </footer>
     </>
   );
 }
